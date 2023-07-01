@@ -9,8 +9,23 @@
 
 
 <body>
+  <div class="logo">
+    <a href="index.html"><img src="l.png" width="469.96" height="100" alt=""></a>
+  </div>
 
-<!-- Links (sit on top) -->
+    <nav>
+      <ul>
+        
+        <li class="j"><a href="direction.html">Direction</a></li>
+        <li class="j"><a href="#contact">Contact</a></li>
+        <li class="j"><a href="#about">About</a></li>
+        <li class="j"><a href="#service">Service</a></li>
+        <li class="j"><a href="#home">Home</a></li>
+
+
+      </ul>
+    </nav>
+<!-- Links (sit on top) 
 <div class="w3-top">
   <div class="w3-row w3-large w3-black">
     <div class="w3-col s3">
@@ -30,8 +45,10 @@
     </div>
   </div>
 </div>
-
+-->
 <!-- Content -->
+
+
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
 
   <div class="w3-panel">
@@ -258,6 +275,13 @@
   </div>
 
   <form class="w3-container" action="https://formsubmit.co/katastrofivibar@gmail.com" method="POST">
+    <!--Honeypot-->
+    <input type="text" name="_honey" style="display: none;">
+
+    <!--Display Captcha-->
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="hidden" name="_next" value="https://katastrofiii.github.io/MM-PZN/success.html">
     <div class="w3-section">
       <label>Name</label>
       <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
